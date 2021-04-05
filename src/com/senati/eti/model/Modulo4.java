@@ -1,6 +1,11 @@
 package com.senati.eti.model;
 
 public class Modulo4 {
+	
+	private String autor;
+	private String titulo;
+	private String Tipo;
+	
 	public Modulo4(String obra,String nom,String tipo) {
 		autor=nom;
 		titulo=obra;
@@ -20,7 +25,4 @@ public class Modulo4 {
 			return "Revista";
 		}
 	}
-	private String autor;
-	private String titulo;
-	private String Tipo;
 }
